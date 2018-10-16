@@ -1,0 +1,314 @@
+@charset 'utf-8';
+/*
+ * author:qi
+ * update Time:2018-04-18
+ *
+ */
+//  html{background: #e3d8c5;}
+
+#app {
+  min-height: 100%;
+  background: #d4c7b2;
+}
+/*登录页*/
+.login-header {
+  width: 100%;
+  height: 3.6rem;
+  background: url("../img/login-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.login-content {
+  width: 100%;
+  position: relative;
+  padding-top: 6%;
+  box-sizing: border-box;
+}
+.b_bottom {
+  width: 100%;
+  height: 0.73rem;
+  background: url("../img/login-bg2.png") no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ba-top {
+  width: 100%;
+  height: 0.68rem;
+  background: url("../img/33.jpg") no-repeat;
+  background-size: cover;
+  margin-bottom: 6%;
+}
+.ba-centermid {
+  margin: 10px;
+  background: #ccd6e4;
+  padding: 18px 30px;
+  border-radius: 8px;
+  -moz-box-shadow: 0px 0px 2px 2px #aaa inset; /* For Firefox3.6+ */
+  -webkit-box-shadow: 0px 0px 2px 2px #aaa inset; /* For Chrome5+, Safari5+ */
+  box-shadow: 0px 0px 2px 2px #aaa inset; /* For Latest Opera */
+}
+.ba-centermid .el-form-item {
+  margin-bottom: 10%;
+  -moz-box-shadow: 0px 0px 1px 1px #aaa inset; /* For Firefox3.6+ */
+  -webkit-box-shadow: 0px 0px 1px 1px #aaa inset; /* For Chrome5+, Safari5+ */
+  box-shadow: 0px 0px 1px 1px #aaa inset;
+}
+.batch .el-form-item__label {
+  width: 20%;
+}
+.batch {
+  max-width: 8rem;
+  margin: 0 auto;
+  min-height: 100%;
+  background: #e8e9de; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    #e8e9de,
+    #d4c7b2
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e8e9de, #d4c7b2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    #e8e9de,
+    #d4c7b2
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e8e9de, #d4c7b2); /* Standard syntax */
+}
+.ba-center {
+  margin: 0 5px 0;
+  background: #f4f4f4;
+  padding: 4px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 1px #babab9;
+  -moz-box-shadow: 0px 1px 1px #babab9; /* For Firefox3.6+ */
+  -webkit-box-shadow: 0px 1px 1px #babab9; /* For Chrome5+, Safari5+ */
+  box-shadow: 0px 1px 1px #babab9;
+}
+.ba-centermid .fo-name {
+  margin-bottom: 0;
+}
+.b_but {
+  margin-top: 4%;
+}
+.b_but .el-button {
+  background: url("../img/dl-bu.png") no-repeat;
+  width: 5rem;
+  height: 1.4rem;
+  background-size: 100%;
+  border: none;
+}
+.b-kh .el-button {
+  background: url("../img/dl-khr.png") no-repeat;
+  width: 5rem;
+  height: 1.4rem;
+  background-size: 100%;
+  border: none;
+}
+.batch .el-form-item {
+  border: 1px solid #fff;
+  border-radius: 6px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  -moz-box-shadow: 0px 0px 1px 1px #aaa inset; /* For Firefox3.6+ */
+  -webkit-box-shadow: 0px 0px 1px 1px #aaa inset; /* For Chrome5+, Safari5+ */
+  box-shadow: 0px 0px 1px 1px #aaa inset;
+}
+.batch .el-form-item__label,
+.batch .el-input__inner {
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  border-radius: 0;
+}
+.batch .el-form-item__label {
+  background: #e4cc9a;
+  color: #954a00;
+  text-align: center;
+  padding: 0;
+  line-height: 30px;
+  font-weight: bolder;
+}
+.batch .el-form-item__content {
+  height: 30px;
+  line-height: 30px;
+}
+.fo-name {
+  margin-bottom: 0;
+}
+.b_rt input {
+  background: #fff url("../img/ren-icon.png") no-repeat 4px center;
+  background-size: 8% 58%;
+  padding-left: 27px;
+  box-sizing: border-box;
+}
+.b_pass input {
+  background: #fff url("../img/pas.png") no-repeat 4px center;
+  background-size: 8% 58%;
+  padding-left: 27px;
+  box-sizing: border-box;
+}
+/*首页*/
+/* 头部 */
+.info-content {
+  margin-top: 10px;
+}
+.info-con,
+.info-content {
+  width: 100%;
+  overflow: hidden;
+}
+.info-con {
+  padding: 0 2px;
+  box-sizing: border-box;
+}
+.fl-rb {
+  margin-right: 2%;
+}
+.info-conright {
+  background: url("../img/wentifankui.png") no-repeat;
+  width: 29%;
+  float: right;
+  height: 30px;
+  background-size: 100%;
+}
+.info-confloat {
+  width: 38%;
+  height: 32px;
+  float: left;
+  line-height: 32px;
+  border: 1px solid #c6c8bf;
+  border-radius: 4px;
+}
+.fo-neck {
+  display: inline-block;
+  width: 46%;
+  float: left;
+  background: #e2c091;
+  color: #9b4200;
+  height: 30px;
+  line-height: 30px;
+  border-top-left-radius:4px;
+  border-bottom-left-radius:4px;
+}
+.fo-value {
+  display: inline-block;
+  width: 54%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float:left;
+  color: #4a4a4a;
+  background: #fff;
+  height: 30px;
+  line-height: 30px;
+  text-align: left;
+  box-sizing: border-box;
+  padding-left: 4px;
+  font-size: 14px;
+  border-top-right-radius:4px;
+  border-bottom-right-radius:4px;
+}
+.r-float {
+  float: right;
+}
+.na_top {
+  width: 100%;
+  overflow: hidden;
+}
+.na_top img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  display: inline-block;
+}
+.navigation {
+  width: 100%;
+  min-height: 100%;
+  padding-bottom: 10%;
+  background: #e8e9de; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    #e8e9de,
+    #d4c7b2
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e8e9de, #d4c7b2); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    #e8e9de,
+    #d4c7b2
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e8e9de, #d4c7b2); /* Standard syntax */
+}
+.nav_content {
+  width: 100%;
+  overflow: hidden;
+  background: url("../img/ul-bg.png") center bottom no-repeat;
+  background-size: 100%;
+  padding-bottom: 5%;
+}
+/*添加代理*/
+.next-f{display:inline-block;padding:2px 6px;border-radius: 8px;;color:#fff;background: #fff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#fff,#d7503b); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fff, #d7503b); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fff,#d7503b); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fbb689, #d7503b); /* Standard syntax */
+  text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  -webkit-text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  -moz-text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  *filter: Glow(color=#9b4200, strength=1); font-size: 14px;
+  box-shadow:.5px 1px 1px #3e2911;
+ }
+.yellowbut{display:inline-block;padding:2px 6px;color:#fff;border-radius:8px;background: #fff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#fbe789,#d8943c); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fbe789, #d8943c); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fbe789,#d8943c); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fbe789, #d8943c); /* Standard syntax */
+  text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  -webkit-text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  -moz-text-shadow:#9b4200 1px 0 0,#9b4200 0 1px 0,#9b4200 -1px 0 0,#9b4200 0 -1px 0;
+  *filter: Glow(color=#9b4200, strength=1);border:none; font-size: 14px;
+  box-shadow:.5px 1px 1px #3e2911;
+}
+.addpro{background: #e3d8c5;width:100%;height: 100%; min-height:680px;}
+.addpro .el-form-item__label{background: #e2c091;color: #a24e0e;font-weight: bold;font-size:16px;padding:0;text-align: center;}
+.addpro .el-input__inner{padding:0 10px;}
+.h_yzm{display:inline-block;padding:2px 6px;font-size:14px;}
+.addpo .el-form-item__content{margin-left:0;}
+.add_creats{font-size:16px;padding:4px 10px;}
+.add_butn{margin-top:20px;}
+.el-table__header,.el-table th, .el-table tr,.el-table th, .el-table tr{background: #e7c085;color: #a7571a}
+.el-table__body tr{background: #fff;color: #000}
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed{
+  border-right:1px solid #be885c
+}
+.el-table td, .el-table th.is-leaf{
+  border-right: 1px solid #be885c
+}
+.el-table td, .el-table th.is-leaf{border-bottom:1px solid #be885c}
+.el-table--border th, .el-table__fixed-right-patch{
+  border-bottom: 1px solid #be885c;
+}
+.el-table--border, .el-table--group{border: 1px solid #be885c;}
+.el-table th>.cell{text-align: center}
+.pro_mange{padding:20px 4px 0;}
+// .add_butn .el-button--primary{background: }
+/*玩家冲卡*/
+.add_content{padding:32px 32px 0;box-sizing:border-box;}
+.add_content .el-form-item{margin-bottom:6px;}
+.code_name{width:54%;float:left}
+.ch_card{margin-top:10px;text-align: center}
+.ch_card .el-input{width:34%;}
+.ch_card .el-input__inner{height:34px;line-height: 34px;}
+.pro_mange h2{width:100%;height:auto;color:#a0531b;text-align: center;font-size: 16px;margin-bottom:4px;}
+.play_car{padding-top:10px;}
+.ch_card .card-m{margin-left:6%;}
+.play_id .el-input__inner{width:60%;margin: 10px auto;}
+/*亲友圈*/
+.friendclubs{width:90%;margin:10px auto;height: auto;overflow: hidden;background: #c06f44;color: #fff;}
+.friendclubs-left{float: left;width:66%;background: #cc9252;height: auto;padding:20px 10px;box-sizing: border-box;}
+.friendclubs-left p{margin-bottom:6px;font-size: 14px;width: 100%;text-align: center;}
+.friendclubs-right{float: left;width:34%;height: auto;}
+.fc-wid{width:66px;margin-right:20px;}
+.friendclubs-left .fc_mg{margin:0;}
+.fc-g{width:84px;}
+.friendclubs-right span{margin-top:4px;}
+.c_m{margin-bottom:2px;line-height: none;}
+.zcart_s{color:#9c4b0c;font-size:20px;margin:10px 0;display: inline-block;}
